@@ -1,16 +1,32 @@
+.box {
+  background-color: black;
+  opacity: .8;
+  padding: 10px;
+}
+
 h1 {
-  color: grey;
+  color: rgb(30, 97, 39);
 }
 
 h2 {
-  color: black;
+  color: rgb(30, 97, 39);
 }
 
 h2 img {
-  width: 10%;
+  width: 37%;
 }
 
 h2 a {
   color: inherit;
   text-decoration: none;
+}
+
+
+.subHeading {
+  color: rgb(23, 80, 82);
+  font-size: 30px;
+}
+
+body {
+  background-color: lightslategrey;
 }
