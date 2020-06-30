@@ -1,11 +1,10 @@
-.box {
-  background-color: black;
-  opacity: .8;
-  padding: 10px;
+body {
+
 }
 
 h1 {
-  color: rgb(30, 97, 39);
+  color: whitesmoke;
+  font-size: 45px;
 }
 
 h2 {
@@ -13,7 +12,8 @@ h2 {
 }
 
 h2 img {
-  width: 37%;
+  width: 125px;
+  background-color: whitesmoke;
 }
 
 h2 a {
@@ -21,12 +21,28 @@ h2 a {
   text-decoration: none;
 }
 
+p {
+  color: whitesmoke;
+}
+
+li {
+  color: whitesmoke;
+}
 
 .subHeading {
-  color: rgb(23, 80, 82);
+  color: rgb(30, 97, 39);
   font-size: 30px;
 }
 
-body {
-  background-color: lightslategrey;
+.box {
+  background-color: black;
+  opacity: .8;
+  padding: 15px;
+}
+
+.termsCond {
+  font-size: 10px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
 }
