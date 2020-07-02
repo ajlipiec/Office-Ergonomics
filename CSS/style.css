@@ -14,6 +14,13 @@ h2 {
   text-align: center;
 }
 
+.box img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 img {
   width: 125px;
   background-color: whitesmoke;
@@ -27,6 +34,7 @@ h2 a {
 p {
   color: whitesmoke;
   font-size: 17px;
+  text-align: center;
 }
 
 li {
@@ -38,7 +46,7 @@ li {
 .tabBox {
   background-color: black;
   opacity: .85;
-  padding: 15px;
+  padding: 5px 15px 5px 15px;
   width: fit-content;
   margin: auto;
 }
@@ -47,7 +55,7 @@ li {
   background-color: black;
   opacity: .85;
   padding: 15px;
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 
@@ -60,6 +68,11 @@ li {
   text-decoration: none;
 }
 
+.price {
+  color: rgb(112, 55, 8);
+  font-size: 20px;
+}
+
 .termsCond {
   background-color: black;
   color: whitesmoke;
@@ -68,4 +81,22 @@ li {
 
 .termsCond p {
   font-size: 10px;
+}
+
+.contactINFO {
+  font-size: 34px;
+  font-weight: bold;
+
+}
+
+.contactINFO p {
+  color: rgb(30, 97, 39);
+}
+
+.email {
+color: salmon;
+}
+
+.phoneNumber {
+
 }
