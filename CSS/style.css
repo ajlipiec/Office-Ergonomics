@@ -1,6 +1,4 @@
-body {
 
-}
 
 .originHeader {
   color: rgb(112, 55, 8);
@@ -98,5 +96,5 @@ color: salmon;
 }
 
 .phoneNumber {
-
+  color: blueviolet;
 }
