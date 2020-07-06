@@ -66,10 +66,6 @@ li {
   text-decoration: none;
 }
 
-.price {
-  color: rgb(112, 55, 8);
-  font-size: 20px;
-}
 
 .termsCond {
   background-color: black;
@@ -97,4 +93,16 @@ color: rgb(112, 55, 8);
 
 .phoneNumber {
   color: blueviolet;
+}
+
+.sale {
+  text-decoration: line-through;
+  color: rgb(112, 55, 8);
+  font-size: 20px;
+}
+
+.price {
+  color: rgb(112, 55, 8);
+  font-size: 20px;
+  background-color: silver;
 }
