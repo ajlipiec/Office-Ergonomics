@@ -2,13 +2,23 @@ body {
 
 }
 
-h1 {
-  color: whitesmoke;
-  font-size: 45px;
+.originHeader {
+  color: rgb(112, 55, 8);
+  font-size: 35px;
+  font-weight: bold;
 }
-
+ 
 h2 {
   color: rgb(30, 97, 39);
+  align-self: center;
+  text-align: center;
+}
+
+.box img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 img {
@@ -23,26 +33,70 @@ h2 a {
 
 p {
   color: whitesmoke;
+  font-size: 17px;
+  text-align: center;
 }
 
 li {
   color: whitesmoke;
+  font-size: 17px;
 }
 
-.subHeading {
-  color: rgb(30, 97, 39);
-  font-size: 30px;
+
+.tabBox {
+  background-color: black;
+  opacity: .85;
+  padding: 5px 15px 5px 15px;
+  width: fit-content;
+  margin: auto;
 }
 
 .box {
   background-color: black;
-  opacity: .8;
+  opacity: .85;
   padding: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.clickLink {
+  font-size: 22px;
+}
+
+.clickLink a {
+  color: rgb(112, 55, 8);
+  text-decoration: none;
+}
+
+.price {
+  color: rgb(112, 55, 8);
+  font-size: 20px;
 }
 
 .termsCond {
-  font-size: 10px;
   background-color: black;
   color: whitesmoke;
   text-align: center;
+}
+
+.termsCond p {
+  font-size: 10px;
+}
+
+.contactINFO {
+  font-size: 34px;
+  font-weight: bold;
+
+}
+
+.contactINFO p {
+  color: rgb(30, 97, 39);
+}
+
+.email {
+color: salmon;
+}
+
+.phoneNumber {
+
 }
