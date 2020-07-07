@@ -74,7 +74,7 @@ li {
 }
 
 .termsCond p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .contactINFO {
@@ -88,7 +88,13 @@ li {
 }
 
 .email {
-color: rgb(112, 55, 8);
+  color: rgb(112, 55, 8);
+  font-size: 20px;
+}
+
+.email a {
+
+  color: inherit;
 }
 
 .phoneNumber {

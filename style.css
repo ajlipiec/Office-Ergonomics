@@ -1,0 +1,53 @@
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+/* 
+ * primary: #04A4CC
+ * secondary: #04D6C8
+ * other: #0DBF81, #04D651, #04CC15
+ */
+
+h1 {
+  font-weight: 800;
+  /* color: #020202; */
+}
+
+.hero {
+  background-color: #04A4CC;
+  padding: 64px 16px;
+  color: white;
+  transition: all 500ms ease-in-out;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    border-radius: 18px;
+    max-width: 600px;
+    margin: 26px auto;
+  }
+}
+
+.hero-link {
+  background-color: #04D6C8;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color 500ms ease-in-out;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  background-color: #0DBF81;
+}
+
+.teaserImage {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.teaserImage-theImageSilly {
+  width: 100%;
+}
