@@ -85,22 +85,22 @@ h2 {
   padding: 10px 5% 10px 5%;
 }
 
-/*
-
-.evaluationFloat1 {
+.evaluationFloat {
   text-align: left;
   padding: 10px 5% 10px 5%;
   float: left;
-  margin-left: 5%;
-  width: 450px;
+  width: 40%;
+  transition: all 500ms ease-in-out;
+  margin: 0 auto;
 }
 
-.evaluationFloat2 {
-  text-align: left;
-  padding: 10px 5% 10px 5%;
-  float: left;
-  margin-right: 5%;
-  width: 450px;
+@media (max-width: 1350px) {
+  .evaluationFloat {
+    width: 90%;
+    margin: inherit;
+  }
 }
 
-*/
+
+ 
+
