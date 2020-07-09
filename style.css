@@ -9,15 +9,24 @@ html {
  * other: #0DBF81, #04D651, #04CC15
  */
 
+ /*
+      -New color scheme attempt #1- 
+  * Primary: #687864 (olive green)
+  * Secondary: #31708E (ocean blue))
+  * other: #50385A5 (light blue)
+  * other: #8FC1E3 (light/soft blue)
+  * other: #F7F9FB (white)
+  */
+
 h1 {
   font-weight: 800;
   /* color: #020202; */
 }
 
 .hero {
-  background-color: #04A4CC;
+  background-color: #31708E;
   padding: 64px 16px;
-  color: white;
+  color: #F7F9FB;
   transition: all 500ms ease-in-out;
 }
 
@@ -30,9 +39,9 @@ h1 {
 }
 
 .hero-link {
-  background-color: #04D6C8;
+  background-color: #687864;
   border-radius: 4px;
-  color: white;
+  color: #F7F9FB;
   padding: 8px 12px;
   text-decoration: none;
   transition: background-color 500ms ease-in-out;
@@ -40,7 +49,7 @@ h1 {
 
 .hero-link:hover,
 .hero-link:focus {
-  background-color: #0DBF81;
+  background-color: #8FC1E3;
 }
 
 .teaserImage {
