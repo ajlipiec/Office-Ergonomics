@@ -15,12 +15,19 @@ html {
   * Secondary: #31708E (ocean blue))
   * other: #50385A5 (light blue)
   * other: #8FC1E3 (light/soft blue)
-  * other: #F7F9FB (white)
+  * other: #F7F9FB (off-white)
   */
 
 h1 {
   font-weight: 800;
   /* color: #020202; */
+}
+
+h2 {
+  color: #F7F9FB;
+  background-color: #687864;
+  padding: 8px 12px;
+  border-radius: 4px;
 }
 
 .hero {
@@ -65,4 +72,15 @@ h1 {
 
 .teaserImage-theImageSilly {
   width: 100%;
+}
+
+.intro {
+  padding: 8px 4% 2px 4%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.textBox {
+  text-align: left;
+  padding: 10px 5% 10px 5%;
 }
