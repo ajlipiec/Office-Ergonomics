@@ -28,12 +28,18 @@ h1 {
   padding: 64px 16px;
   color: #F7F9FB;
   transition: all 500ms ease-in-out;
+  text-align: center;
 }
 
-@media (min-width: 800px) {
+.hero img {
+  width: 35%;
+  
+}
+
+@media (min-width: 1000px) {
   .hero {
     border-radius: 18px;
-    max-width: 600px;
+    max-width: 900px;
     margin: 26px auto;
   }
 }
