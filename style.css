@@ -147,5 +147,20 @@ h4 {
 
 }
 
+.price {
+  background-color: #8FC1E3;
+  border-radius: 15px;
+}
+
+.oldPrice {
+  font-size: 22px;
+  text-decoration: line-through;
+  color: #687864;
+}
+
+.newPrice {
+  font-size: 24px;
+  font-weight: bold;
+}
 
   
