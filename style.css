@@ -123,17 +123,21 @@ h4 {
 
 .u-centerText {
   text-align: center;
+  font-size: 0.89rem;
 }
 
 /* ----------- Andy Going Rogue --------------------*/
-
-
 
 .videoInfo{
   text-align: left;
   background-color:#8FC1E3;
   border-radius: 15px;
-  padding: 5px;
+  padding: 8px;
+  padding-right: 16px;
+}
+
+.videoInfo-heading {
+  text-align: center;
 }
 
 .videoInfo ol {
@@ -144,23 +148,55 @@ h4 {
 .videoInfo ul {
   font-weight: normal;
   font-size: 15px;
+}
 
+.videoInfo ol > li {
+  padding-top: 8px;
+}
+
+.videoInfo li {
+  padding-bottom: 4px;
 }
 
 .price {
   background-color: #8FC1E3;
   border-radius: 15px;
+  padding: 26px 64px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.oldPrice {
-  font-size: 22px;
-  text-decoration: line-through;
-  color: #687864;
+.price--reduced::after {
+  background: #687864;
+  content: "Reduced";
+  display: block;
+  left: -41px;
+  padding: 8px;
+  position: absolute;
+  top: 19px;
+  transform: rotate(-45deg);
+  width: 132px;
+  color: white;
 }
 
-.newPrice {
+.price-theCost {
   font-size: 24px;
   font-weight: bold;
+  text-align: left;
+  width: 300px;
 }
 
-  
+.price-now,
+.price-was {
+  display: block;
+}
+
+.price-was {
+  font-size: smaller;
+  color: #687864;
+  font-style: italic;
+  padding-left: 16px;
+}
