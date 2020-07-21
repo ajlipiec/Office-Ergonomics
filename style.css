@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   color: #F7F9FB;
-  background-color: #5085A5;
+  background-color: #31708E;
   padding: 8px 12px;
   border-radius: 4px;
   text-align: center;
@@ -124,3 +124,43 @@ h4 {
 .u-centerText {
   text-align: center;
 }
+
+/* ----------- Andy Going Rogue --------------------*/
+
+
+
+.videoInfo{
+  text-align: left;
+  background-color:#8FC1E3;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.videoInfo ol {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.videoInfo ul {
+  font-weight: normal;
+  font-size: 15px;
+
+}
+
+.price {
+  background-color: #8FC1E3;
+  border-radius: 15px;
+}
+
+.oldPrice {
+  font-size: 22px;
+  text-decoration: line-through;
+  color: #687864;
+}
+
+.newPrice {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+  
