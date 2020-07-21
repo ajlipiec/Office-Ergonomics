@@ -123,6 +123,7 @@ h4 {
 
 .u-centerText {
   text-align: center;
+  font-size: 0.89rem;
 }
 
 /* ----------- Andy Going Rogue --------------------*/
@@ -133,7 +134,12 @@ h4 {
   text-align: left;
   background-color:#8FC1E3;
   border-radius: 15px;
-  padding: 5px;
+  padding: 8px;
+  padding-right: 16px;
+}
+
+.videoInfo-heading {
+  text-align: center;
 }
 
 .videoInfo ol {
@@ -144,12 +150,16 @@ h4 {
 .videoInfo ul {
   font-weight: normal;
   font-size: 15px;
+}
 
+.videoInfo ol > li {
+  padding-top: 8px;
 }
 
 .price {
   background-color: #8FC1E3;
   border-radius: 15px;
+  padding: 8px;
 }
 
 .oldPrice {
