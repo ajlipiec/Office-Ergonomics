@@ -200,3 +200,27 @@ h4 {
   font-style: italic;
   padding-left: 16px;
 }
+
+/*----------- Rogue 2.0 ----------- */
+
+.product {
+  background-color: #687864;
+  color: #F7F9FB;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.product p {
+  width: 300px;
+  padding: 0px, 30px;
+}
+
+.product img {
+  width: 150px;
+  vertical-align:middle;
+}
