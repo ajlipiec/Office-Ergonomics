@@ -10,10 +10,28 @@ html {
   * other: #5085A5 (light blue)
   * other: #8FC1E3 (light/soft blue)
   * other: #F7F9FB (off-white)
-  */
+
+
+  - color scheme attempt 2
+    * Primary: #E7717D Pink
+  * Secondary: #C2CAD0 (grey)
+  * other: #C2B9B0 (brown/grey)
+  * other: #7E685A (brown)
+  * other: #AFD275 (light green)
+  
+
+  - color scheme attempt 3
+  * Primary: #77C9D4 blue/teal
+* Secondary: #57BC90 Marine/ green
+* other: #015249 Forest
+* other: #A5A5AF Sleek Grey
+
+
+* other: #AFD275 (light green)
+*/
 
 body {
-  background-color: #F7F9FB;
+  background-color: #A5A5AF;
 }
 
 .homepageContent {
@@ -28,8 +46,8 @@ h1 {
 }
 
 h2 {
-  color: #F7F9FB;
-  background-color: #31708E;
+  color: #77C9D4;
+  background-color: #015249;
   padding: 8px 12px;
   border-radius: 4px;
   text-align: center;
@@ -47,7 +65,7 @@ h4 {
 }
 
 .hero {
-  background-color: #31708E;
+  background-color: #015249;
   padding: 24px 16px;
   color: #F7F9FB;
   text-align: center;
@@ -82,7 +100,7 @@ h4 {
 
 .contact {
   text-align: center;
-  background-color: #8FC1E3;
+  background-color: #015249;
   padding: 4px 8px;
 }
 
@@ -90,11 +108,18 @@ h4 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: #77C9D4;
+}
+
+.contact h2 {
+  
+  color: #77C9D4;
 }
 
 .contact a {
-  color: #444643;
+  color: #57BC90;
 }
+
 
 .options {
   display: flex;
@@ -102,9 +127,9 @@ h4 {
 }
 
 .option-learnMore a {
-  background-color: #687864;
+  background-color: #77C9D4;
   border-radius: 4px;
-  color: #F7F9FB;
+  color: #015249;
   padding: 8px 12px;
   text-decoration: none;
 }
@@ -130,7 +155,7 @@ h4 {
 
 .videoInfo{
   text-align: left;
-  background-color:#8FC1E3;
+  background-color:#57BC90;
   border-radius: 15px;
   padding: 8px;
   padding-right: 16px;
@@ -159,7 +184,7 @@ h4 {
 }
 
 .price {
-  background-color: #8FC1E3;
+  background-color: #57BC90;
   border-radius: 15px;
   padding: 26px 64px;
   position: relative;
