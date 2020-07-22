@@ -37,6 +37,9 @@ body {
 h1 {
   color: #dedee4;
   font-weight: 800;
+  
+
+  animation: pulse 5s infinite
 }
 
 h2 {
@@ -45,6 +48,7 @@ h2 {
   padding: 8px 12px;
   border-radius: 4px;
   text-align: center;
+  
 }
 
 h3 {
@@ -63,7 +67,6 @@ h4 {
   padding: 24px 16px;
   color: #F7F9FB;
   text-align: center;
- 
 }
 
 .hero img {
@@ -75,6 +78,7 @@ h4 {
     border-radius: 18px;
     max-width: 884px;
     margin: 26px auto;
+
   }
 }
 
@@ -114,6 +118,14 @@ h4 {
   text-decoration: none;
 }
 
+.nav li a:hover {
+  background-color: #77C9D4; 
+}
+
+.nav li a:active {
+  background-color: #015249;
+  color: #77C9D4;
+}
 
 
 /* ---- End Nav play ----*/ 
@@ -152,12 +164,17 @@ h4 {
 }
 
 .option-learnMore a {
-  background-color: #77C9D4;
+  background-color: #57BC90;
   border-radius: 4px;
   color: #015249;
   padding: 8px 12px;
   text-decoration: none;
   font-weight: bold;
+  
+}
+
+.option-learnMore a:hover {
+  background-color: #77C9D4;
 }
 
 @media (min-width: 900px) {
@@ -279,4 +296,20 @@ h4 {
 .product img {
   width: 150px;
   vertical-align:middle;
+}
+
+/* --- Rogue 3.0...working on dynamic components --- */
+
+
+/* Only applied to h1 */
+@keyframes pulse {
+  0%, 100% {
+    color: #F7F9FB ;
+  }
+  33% {
+    color: #77C9D4;
+  }
+  66% {
+    color: #57BC90;
+  }
 }
