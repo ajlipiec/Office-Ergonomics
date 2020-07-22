@@ -100,7 +100,7 @@ h4 {
 
 .contact {
   text-align: center;
-  background-color: #57BC90;
+  background-color: #015249;
   padding: 4px 8px;
 }
 
@@ -108,11 +108,18 @@ h4 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: #77C9D4;
+}
+
+.contact h2 {
+  
+  color: #77C9D4;
 }
 
 .contact a {
-  color: #444643;
+  color: #57BC90;
 }
+
 
 .options {
   display: flex;
@@ -148,7 +155,7 @@ h4 {
 
 .videoInfo{
   text-align: left;
-  background-color:#77C9D4;
+  background-color:#57BC90;
   border-radius: 15px;
   padding: 8px;
   padding-right: 16px;
@@ -177,7 +184,7 @@ h4 {
 }
 
 .price {
-  background-color: #77C9D4;
+  background-color: #57BC90;
   border-radius: 15px;
   padding: 26px 64px;
   position: relative;
