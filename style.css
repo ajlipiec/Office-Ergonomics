@@ -4,34 +4,27 @@ html {
 
 
  /*
-      -New color scheme attempt #1- 
+      -Original color scheme attempt - 
   * Primary: #687864 (olive green)
   * Secondary: #31708E (ocean blue))
   * other: #5085A5 (light blue)
   * other: #8FC1E3 (light/soft blue)
-  * other: #F7F9FB (off-white)
 
-
-  - color scheme attempt 2
-    * Primary: #E7717D Pink
-  * Secondary: #C2CAD0 (grey)
-  * other: #C2B9B0 (brown/grey)
-  * other: #7E685A (brown)
-  * other: #AFD275 (light green)
-  
 
   - color scheme attempt 3
   * Primary: #77C9D4 blue/teal
-* Secondary: #57BC90 Marine/ green
-* other: #015249 Forest
-* other: #A5A5AF Sleek Grey
+  * Secondary: #57BC90 Marine/ green
+  * other: #015249 Forest
+  * other: #dedee4 Sleek Grey
+  * other: #F7F9FB (off-white)
 
-
-* other: #AFD275 (light green)
-*/
+--maybe add these too? Not part of formal scheme--    
+  * Primary: #687864 (olive green)
+  * other: #AFD275 (light green)
+  */
 
 body {
-  background-color: #A5A5AF;
+  background-color: #dedee4;
 }
 
 .homepageContent {
@@ -42,11 +35,12 @@ body {
 }
 
 h1 {
+  color: #dedee4;
   font-weight: 800;
 }
 
 h2 {
-  color: #77C9D4;
+  color: #dedee4;
   background-color: #015249;
   padding: 8px 12px;
   border-radius: 4px;
@@ -69,6 +63,7 @@ h4 {
   padding: 24px 16px;
   color: #F7F9FB;
   text-align: center;
+ 
 }
 
 .hero img {
@@ -91,6 +86,37 @@ h4 {
 .teaserImage-theImageSilly {
   width: 100%;
 }
+
+/* ---- Beggining Nav play ----*/ 
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57BC90;
+  text-align: center; 
+}
+
+.nav li {
+  display: inline;
+  border-right: 1px solid #dedee4;
+}
+
+.nav li a {
+  color: #015249;
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* ---- End Nav play ----*/ 
 
 .intro {
   padding: 8px 16px 4px;
@@ -120,7 +146,6 @@ h4 {
   color: #57BC90;
 }
 
-
 .options {
   display: flex;
   flex-direction: column;
@@ -132,6 +157,7 @@ h4 {
   color: #015249;
   padding: 8px 12px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @media (min-width: 900px) {
@@ -165,6 +191,10 @@ h4 {
   text-align: center;
 }
 
+.videoInfo a {
+  color: black;
+}
+
 .videoInfo ol {
   font-weight: bold;
   font-size: 17px;
@@ -195,7 +225,7 @@ h4 {
 }
 
 .price--reduced::after {
-  background: #687864;
+  background: #77C9D4;
   content: "Reduced";
   display: block;
   left: -41px;
@@ -204,7 +234,8 @@ h4 {
   top: 19px;
   transform: rotate(-45deg);
   width: 132px;
-  color: white;
+  color: #015249;
+  font-weight: bold;
 }
 
 .price-theCost {
