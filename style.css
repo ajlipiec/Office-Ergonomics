@@ -1,0 +1,282 @@
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+ /*
+      -Original color scheme attempt - 
+  * Primary: #687864 (olive green)
+  * Secondary: #31708E (ocean blue))
+  * other: #5085A5 (light blue)
+  * other: #8FC1E3 (light/soft blue)
+
+
+  - color scheme attempt 3
+  * Primary: #77C9D4 blue/teal
+  * Secondary: #57BC90 Marine/ green
+  * other: #015249 Forest
+  * other: #dedee4 Sleek Grey
+  * other: #F7F9FB (off-white)
+
+--maybe add these too? Not part of formal scheme--    
+  * Primary: #687864 (olive green)
+  * other: #AFD275 (light green)
+  */
+
+body {
+  background-color: #dedee4;
+}
+
+.homepageContent {
+  padding: 0 16px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #dedee4;
+  font-weight: 800;
+}
+
+h2 {
+  color: #dedee4;
+  background-color: #015249;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 35px;
+  background-color: #687864;
+  text-align: center;
+  color: #F7F9FB;
+}
+
+.hero {
+  background-color: #015249;
+  padding: 24px 16px;
+  color: #F7F9FB;
+  text-align: center;
+ 
+}
+
+.hero img {
+  width: 35%;
+}
+
+@media (min-width: 900px) {
+  .hero {
+    border-radius: 18px;
+    max-width: 884px;
+    margin: 26px auto;
+  }
+}
+
+.teaserImage {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.teaserImage-theImageSilly {
+  width: 100%;
+}
+
+/* ---- Beggining Nav play ----*/ 
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57BC90;
+  text-align: center; 
+}
+
+.nav li {
+  display: inline;
+  border-right: 1px solid #dedee4;
+}
+
+.nav li a {
+  color: #015249;
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* ---- End Nav play ----*/ 
+
+.intro {
+  padding: 8px 16px 4px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact {
+  text-align: center;
+  background-color: #015249;
+  padding: 4px 8px;
+}
+
+.contact * {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #77C9D4;
+}
+
+.contact h2 {
+  
+  color: #77C9D4;
+}
+
+.contact a {
+  color: #57BC90;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-learnMore a {
+  background-color: #77C9D4;
+  border-radius: 4px;
+  color: #015249;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .options {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .options .option {
+    width: calc(50% - 16px);
+  }
+}
+
+.u-centerText {
+  text-align: center;
+  font-size: 0.89rem;
+}
+
+/* ----------- Andy Going Rogue --------------------*/
+
+.videoInfo{
+  text-align: left;
+  background-color:#57BC90;
+  border-radius: 15px;
+  padding: 8px;
+  padding-right: 16px;
+}
+
+.videoInfo-heading {
+  text-align: center;
+}
+
+.videoInfo a {
+  color: black;
+}
+
+.videoInfo ol {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.videoInfo ul {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.videoInfo ol > li {
+  padding-top: 8px;
+}
+
+.videoInfo li {
+  padding-bottom: 4px;
+}
+
+.price {
+  background-color: #57BC90;
+  border-radius: 15px;
+  padding: 26px 64px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price--reduced::after {
+  background: #77C9D4;
+  content: "Reduced";
+  display: block;
+  left: -41px;
+  padding: 8px;
+  position: absolute;
+  top: 19px;
+  transform: rotate(-45deg);
+  width: 132px;
+  color: #015249;
+  font-weight: bold;
+}
+
+.price-theCost {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+}
+
+.price-now,
+.price-was {
+  display: block;
+}
+
+.price-was {
+  font-size: smaller;
+  color: #687864;
+  font-style: italic;
+  padding-left: 16px;
+}
+
+/*----------- Rogue 2.0 ----------- */
+
+.product {
+  background-color: #687864;
+  color: #F7F9FB;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.product p {
+  width: 300px;
+  padding: 0px, 30px;
+}
+
+.product img {
+  width: 150px;
+  vertical-align:middle;
+}
