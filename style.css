@@ -350,13 +350,13 @@ h4 {
       transform: translate(0,0);
     }
     40% {
-      transform: translate(90vmin, 0);
+      transform: translate(90vw, 0);
     }
     50% {
-      transform: translate(90vmin, 80px);
+      transform: translate(90vw, 80px);
     }
     60% {
-      transform: translate(90vmin, 0);
+      transform: translate(90vw, 0);
     }
   
   }
@@ -386,13 +386,13 @@ h4 {
         transform: translate(0,0);
       }
       40% {
-        transform: translate(-90vmin, 0);
+        transform: translate(-90vw, 0);
       }
       50% {
-        transform: translate(-90vmin, 80px);
+        transform: translate(-90vw, 80px);
       }
       60% {
-        transform: translate(-90vmin, 0);
+        transform: translate(-90vw, 0);
       }
       100% {
   
