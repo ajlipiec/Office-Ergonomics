@@ -119,6 +119,8 @@ h4 {
 
 .nav li a:hover {
   background-color: #77C9D4; 
+  border-radius: 8px;
+  padding: 12px 20px;
 }
 
 .nav li a:active {
@@ -224,6 +226,8 @@ h4 {
 
 .videoInfo a:hover {
   background-color: #77C9D4; 
+  border-radius: 5px;
+  padding: 2px
 }
 
 .videoInfo ol {
