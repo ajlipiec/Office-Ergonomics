@@ -135,9 +135,15 @@ h4 {
   font-size: 18px;
 }
 
+/*
 .intro img {
   width: 200px ;
+  background-color: #57BC90;
+  padding: 25px;
+  border-radius: 15px;
+  
 }
+*/
 
 .contact {
   text-align: center;
