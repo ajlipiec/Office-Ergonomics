@@ -120,7 +120,7 @@ h4 {
 .nav li a:hover {
   background-color: #77C9D4; 
   border-radius: 8px;
-  padding: 12px 20px;
+  padding: 12px 2px;
 }
 
 .nav li a:active {
