@@ -147,6 +147,10 @@ h4 {
   font-size: 18px;
 }
 
+.intro img {
+  width: 200px ;
+}
+
 .contact {
   text-align: center;
   background-color: #015249;
@@ -189,17 +193,42 @@ h4 {
   background-color: #77C9D4;
 }
 
+.responsive-video {
+
+}
+
 @media (min-width: 900px) {
   .options {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 16px;
   }
+}
+
+@media (max-width: 800px) {
+    /* --adding responsive video breakpoint?-- */ 
+    .responsive-video {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+    
+    .responsive-video iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+
+  
 
   .options .option {
     width: calc(50% - 16px);
   }
-}
+
 
 .u-centerText {
   text-align: center;
@@ -222,6 +251,7 @@ h4 {
 
 .videoInfo a {
   color: black;
+  overflow-wrap: break-word;
 }
 
 .videoInfo a:hover {
@@ -426,17 +456,3 @@ h4 {
 }
 
 
-.responsive-video {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.responsive-video iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
