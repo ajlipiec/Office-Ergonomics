@@ -185,10 +185,12 @@ h4 {
     justify-content: space-between;
     margin-bottom: 16px;
   }
-}
-.options .option {
+  .options .option {
     width: calc(50% - 16px);
   }
+}
+
+
 
 .u-centerText {
   text-align: center;
@@ -330,7 +332,6 @@ h4 {
 
 /* --- THE ORBS!!!! planting seeds...root...it's a metaphor--- */
 .secret-orb {
-
   display: inline-block;
   height: 75px;
   width: 75px;
@@ -370,8 +371,6 @@ h4 {
     100% {
       transform: translate(90vw, 80px);
     }
-
-  
   }
 
   .secret-orb2 {
@@ -384,7 +383,6 @@ h4 {
       roll2 12s ease infinite;
     border-radius: 100%;
     animation-play-state: running;
-
   }
   
   @keyframes roll2 {
