@@ -78,9 +78,20 @@ h4 {
     border-radius: 18px;
     max-width: 884px;
     margin: 26px auto;
-
   }
 }
+
+/* --- seeing if i can make the video narrower with a full screen media view ---
+
+@media (max-width: 900px) {
+  .responsive-video {
+    min-width: 884px;
+    width:560px;
+    height: 315px;
+    align-content: center;
+  }
+}
+*/
 
 .teaserImage {
   max-height: 300px;
@@ -303,8 +314,15 @@ h4 {
   vertical-align:middle;
 }
 
-/* --- Rogue 3.0...working on dynamic components --- */
+.referral {
+  text-align: center;
+}
 
+.referral h2 {
+  font-size: 18px;
+}
+
+/* --- Rogue 3.0...working on dynamic components --- */
 
 /* Only applied to h1 */
 @keyframes pulse {
