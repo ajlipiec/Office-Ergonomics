@@ -81,18 +81,6 @@ h4 {
   }
 }
 
-/* --- seeing if i can make the video narrower with a full screen media view ---
-
-@media (max-width: 900px) {
-  .responsive-video {
-    min-width: 884px;
-    width:560px;
-    height: 315px;
-    align-content: center;
-  }
-}
-*/
-
 .teaserImage {
   max-height: 300px;
   overflow: hidden;
@@ -166,7 +154,6 @@ h4 {
 }
 
 .contact h2 {
-  
   color: #77C9D4;
 }
 
@@ -185,16 +172,11 @@ h4 {
   color: #015249;
   padding: 8px 12px;
   text-decoration: none;
-  font-weight: bold;
-  
+  font-weight: bold; 
 }
 
 .option-learnMore a:hover {
   background-color: #77C9D4;
-}
-
-.responsive-video {
-
 }
 
 @media (min-width: 900px) {
@@ -204,31 +186,9 @@ h4 {
     margin-bottom: 16px;
   }
 }
-
-@media (max-width: 800px) {
-    /* --adding responsive video breakpoint?-- */ 
-    .responsive-video {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-    }
-    
-    .responsive-video iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-    }
-  }
-
-  
-
-  .options .option {
+.options .option {
     width: calc(50% - 16px);
   }
-
 
 .u-centerText {
   text-align: center;
@@ -455,4 +415,24 @@ h4 {
   color: #77C9D4;
 }
 
+.responsive-video {
 
+}
+
+@media (max-width: 800px) {
+  /* --adding responsive video breakpoint?-- */ 
+  .responsive-video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .responsive-video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
