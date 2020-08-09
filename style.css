@@ -314,26 +314,43 @@ h4 {
 
 /*----------- Affliliate Marketing Page Style (unused) - Start ----------- */
 
+.marketing_content {
+display: inline-block;
+text-align: center;
+ 
+
+}
+
 .product {
   background-color: #687864;
   color: #F7F9FB;
-  padding: 10px;
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  overflow: auto;
+  padding: 15px;
+  border-radius: 25px;
+  display: inline-table;
+  margin: auto;
+  width: 500px;
+  height: 550px;
+
+ 
 }
 
 .product p {
-  width: 300px;
   padding: 0px, 30px;
+  text-align: center;
 }
 
 .product img {
   width: 150px;
-  vertical-align:middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center_everything {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .referral {
