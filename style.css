@@ -426,15 +426,15 @@ text-align: center;
   height: 75px;
   width: 75px;
   animation:
-    fade 10s ease infinite, 
-    roll 10s ease infinite;
+    fade 13s ease infinite, 
+    roll 13s ease infinite;
   border-radius: 100%;
   animation-play-state: running;
 }
 
 
 @keyframes fade {
-  1%, 3%, 90%, 99% {
+  1%, 90%, 99% {
     background-color: #dedee4;
     }
   25% {
@@ -453,7 +453,7 @@ text-align: center;
       transform: translate(0,0);
     }
     100% {
-      transform: translate(110vw, 0);
+      transform: translate(100vw, 0);
     }
   }
 
@@ -463,8 +463,8 @@ text-align: center;
     height: 75px;
     width: 75px;
     animation:
-      fade 10s ease infinite, 
-      roll2 10s ease infinite;
+      fade 13s ease infinite, 
+      roll2 13s ease infinite;
     border-radius: 100%;
     animation-play-state: running;
   }
@@ -474,7 +474,7 @@ text-align: center;
       transform: translate(0,0);
     }
     100% {
-      transform: translate(-110vw, 0);
+      transform: translate(-100vw, 0);
     }
   }
   
