@@ -431,9 +431,7 @@ text-align: center;
   border-radius: 100%;
   animation-play-state: running;
 }
-.secret-orb :hover {
-  border-radius: 0%;
-}
+
 
 @keyframes fade {
   1%, 3%, 90%, 99% {
@@ -479,6 +477,7 @@ text-align: center;
       transform: translate(-110vw, 0);
     }
   }
+  
 
 /* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - Start ----- */
   
