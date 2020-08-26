@@ -10,7 +10,7 @@ html {
  Cambridge Green -  #A4CBB1
  Cadet blue -      #5C969D
  Blue Sapphire -    #146188
- Ebony -            #5d6b55
+
  off white -        #dedee4
 
 /* ------- Stable Headers - Start ------- */
@@ -129,9 +129,9 @@ li {
 }
 
 .nav li a:hover {
-  background-color: #5d6b55; 
+  background-color: #5C969D; 
   border-radius: 8px;
-  padding: 12px 2px;
+  padding: 14px 15px;
   transition: ease-in-out 200ms;
 }
 
@@ -222,7 +222,7 @@ li {
 }
 
 .option-learnMore a:hover {
-  background-color: #5d6b55;
+  background-color: #5C969D;
   transition: ease-in-out 500ms;
 }
 
@@ -316,11 +316,12 @@ li {
   top: 19px;
   transform: rotate(-45deg);
   width: 132px;
-  color: #015249;
+  color: #4D865F;
   font-weight: bold;
 }
 
 .price-theCost {
+  color: #146188;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -334,7 +335,7 @@ li {
 
 .price-was {
   font-size: smaller;
-  color: #687864;
+  color: #A4CBB1;
   font-style: italic;
   padding-left: 16px;
 }
