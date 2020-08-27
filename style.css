@@ -441,7 +441,7 @@ text-align: center;
 
 
 @keyframes fade {
-  1%, 90%, 99% {
+  1%, 90% {
     background-color: #5C969D;
     }
   25% {
@@ -453,6 +453,9 @@ text-align: center;
   55% {
     background-color: #4D865F;
     }
+  99% {
+    background-color: transparent;
+  }
   }
 
   @keyframes roll {
@@ -486,7 +489,7 @@ text-align: center;
   }
   
 
-/* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - Start ----- */
+/* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - End ----- */
   
 /* ------- Terms and Conditions - Satrt ------- */
 
