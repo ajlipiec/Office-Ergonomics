@@ -509,7 +509,7 @@ text-align: center;
 
 /* ------- Video Embed + media style - Start ------- */
 .responsive-video {
-  /* keep emply for media style to work */
+  /* keep empty for media style to work */
 }
 
 @media (max-width: 800px) {
