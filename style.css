@@ -345,13 +345,11 @@ li {
 .marketing_content {
 display: inline-block;
 text-align: center;
- 
-
 }
 
 .product {
-  background-color: #687864;
-  color: #F7F9FB;
+  background-color: #4D865F;
+  color: #dedee4;
   padding: 15px;
   border-radius: 25px;
   display: inline-table;
@@ -378,9 +376,23 @@ text-align: center;
   align-content: center;
   align-items: center;
   justify-content: center;
+}
+
+.product h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+/*----------- Affliliate Marketing Page Style () - End ----------- */
+/* ----- Blog / Content -------*/
+
+.blog {
 
 }
-/*----------- Affliliate Marketing Page Style () - End ----------- */
+.blog h3 {
+  color: #dedee4;
+}
+/* ----- Blog / Content -------*/
 
 
 /* ----   referral text - start ----- */
@@ -392,25 +404,6 @@ text-align: center;
   font-size: 18px;
 }
 /* ----   referral text - end ----- */
-
-/*------ free assessment page - start---------*/
-
-.free_assessment_main {
-  font-size: larger;
-}
-
-.free_assessment_main h1 {
-  animation: pulse 1.5s infinite;
-  background-color: #015249 ;
-}
-
-.free_assessment_main ol {
-  text-align: initial;
-}
-
-/*------ free assessment page - end ---------*/
-
-
 /*------ Color Changing Text (Only applied to h1) ------- */
 @keyframes pulse {
   0%, 100% {
