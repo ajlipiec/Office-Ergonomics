@@ -49,6 +49,7 @@ h2 {
 
 h3 {
   font-size: 28px;
+  color: #dedee4
 }
 
 h4 {
@@ -152,7 +153,6 @@ li {
   background-color: #4D865F;
   padding: 25px;
   border-radius: 15px;
-  
 }
 
 
@@ -353,11 +353,19 @@ text-align: center;
   padding: 15px;
   border-radius: 25px;
   display: inline-table;
-  margin: auto;
+  margin: 5px auto;
   width: 500px;
   height: 550px;
+}
 
- 
+.product h2 {
+  margin: 0;
+  padding: 15px, 0px;
+}
+
+.product h3 {
+  font-size: 18px;
+  text-align: center;
 }
 
 .product p {
@@ -373,24 +381,25 @@ text-align: center;
 }
 
 .center_everything {
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.product h3 {
-  font-size: 18px;
   text-align: center;
 }
+
+
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
 /* ----- Blog / Content -------*/
 
-.blog {
 
+.blog {
+  padding: 0 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 .blog h3 {
   color: #dedee4;
+  text-align: center;
 }
 /* ----- Blog / Content -------*/
 
