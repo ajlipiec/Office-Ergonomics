@@ -33,9 +33,6 @@ body {
 h1 {
   color: #dedee4;
   font-weight: 800;
-  
-
-  animation: pulse 5s infinite
 }
 
 h2 {
@@ -207,7 +204,7 @@ li {
 }
 
 .baseTeaser {
-  max-height: 180px;
+  max-height: 230px;
   overflow: hidden;
 }
 
@@ -423,18 +420,6 @@ text-align: center;
   font-size: 18px;
 }
 /* ----   referral text - end ----- */
-/*------ Color Changing Text (Only applied to h1) ------- */
-@keyframes pulse {
-  0%, 100% {
-    color: #A4CBB1 ;
-  }
-  33% {
-    color: #dedee4;
-  }
-  66% {
-    color: #4D865F;
-  }
-}
 
 
 /* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - Start ----- */
