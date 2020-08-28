@@ -25,7 +25,7 @@ body {
 
 .homepageContent {
   padding: 0 16px;
-  max-width: 1200px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,6 +66,7 @@ p {
 li {
   color: #dedee4;
 }
+
 
 /* ------- Stable Headers- End ------- */
 
@@ -132,7 +133,7 @@ li {
 .nav li a:hover {
   background-color: #5C969D; 
   border-radius: 8px;
-  padding: 14px 15px;
+  padding: 14px 16px;
   transition: ease-in-out 200ms;
 }
 
@@ -153,6 +154,7 @@ li {
   background-color: #4D865F;
   padding: 25px;
   border-radius: 15px;
+
 }
 
 
