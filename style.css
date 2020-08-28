@@ -206,12 +206,12 @@ li {
   transition: ease-in-out 500ms;
 }
 
-.contactTeaser {
+.baseTeaser {
   max-height: 180px;
   overflow: hidden;
 }
 
-.contactTeaser-theImage {
+.baseTeaser-theImage {
   width: 100%
 }
 
