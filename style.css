@@ -96,6 +96,7 @@ li {
 
 .teaserImage-theImageSilly {
   width: 100%;
+  border-radius: 25px 25px 0px 0px;
 }
 
 /* -------- Hero and Teaser - End -------*/
@@ -209,7 +210,9 @@ li {
 }
 
 .baseTeaser-theImage {
-  width: 100%
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+  
 }
 
 /* ------- Options - start (indext description item wrap)-------*/ 
@@ -362,7 +365,18 @@ text-align: center;
   display: inline-table;
   margin: 5px auto;
   width: 500px;
-  height: 550px;
+  height: 520px;
+}
+
+.product a {
+  
+  color: inherit;
+}
+
+.product a:hover {
+  background-color: #146188; 
+  border-radius: 5px;
+  padding: 2px
 }
 
 .product h2 {
@@ -385,6 +399,7 @@ text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
 }
 
 .center_everything {
