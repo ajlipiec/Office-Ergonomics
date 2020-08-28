@@ -163,6 +163,7 @@ li {
 /* ------- Contact - Start -------*/
 
 .contact {
+  background-image: url(/img/splash5.jpg);
   text-align: center;
   background-color: #4D865F;
   padding: 4px 8px;
@@ -204,7 +205,15 @@ li {
 .contact a :hover  {
   background-color: #A4CBB1;
   transition: ease-in-out 500ms;
-  
+}
+
+.contactTeaser {
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.contactTeaser-theImage {
+  width: 100%
 }
 
 /* ------- Options - start (indext description item wrap)-------*/ 
