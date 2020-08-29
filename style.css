@@ -405,12 +405,12 @@ text-align: center;
   text-align: center;
 }
 
-@media (max-width: 450px) {
-  /* adding responsive video breakpoint? */ 
+@media (max-width: 450px) { 
   .product {
     width: auto;
     height: auto;
   }
+}
 
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
@@ -544,5 +544,3 @@ text-align: center;
     position: absolute;
   }
 }
-
-/* ------- Video Embed + media style - End ------- */
