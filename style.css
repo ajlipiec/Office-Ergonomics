@@ -365,7 +365,7 @@ text-align: center;
   display: inline-table;
   margin: 5px auto;
   width: 500px;
-  height: 520px;
+  height: 500px;
 }
 
 .product a {
@@ -406,6 +406,12 @@ text-align: center;
   text-align: center;
 }
 
+@media (max-width: 450px) {
+  /* adding responsive video breakpoint? */ 
+  .product {
+    width: auto;
+    height: auto;
+  }
 
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
