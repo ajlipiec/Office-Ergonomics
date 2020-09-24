@@ -29,6 +29,10 @@ body {
   margin-right: auto;
 }
 
+.homepageContent a {
+  color: #77C9D4;
+}
+
 h1 {
   color: #dedee4;
   font-weight: 800;
@@ -349,7 +353,7 @@ li {
   padding-left: 16px;
 }
 
-/*----------- Affliliate Marketing Page Style (unused) - Start ----------- */
+/*----------- Affliliate Marketing Page Style (Sit-stand Desk) - Start ----------- */
 
 .marketing_content {
 display: inline-block;
@@ -369,13 +373,14 @@ text-align: center;
 
 .product a {
   
-  color: inherit;
+  color: #77C9D4;
 }
 
 .product a:hover {
   background-color: #146188; 
   border-radius: 5px;
-  padding: 2px
+  padding: 2px;
+  text-decoration: none;
 }
 
 .product h2 {
@@ -412,6 +417,59 @@ text-align: center;
   }
 }
 
+/*-----------Product 2.0 for "Long" boxes : used for CTS---------------*/
+.productLong {
+  background-color: #4D865F;
+  color: #dedee4;
+  padding: 15px;
+  border-radius: 25px;
+  display: inline-table;
+  margin: 5px auto;
+  width: 560px;
+  height: 605px;
+}
+
+.productLong a {
+  
+  color: #77C9D4;
+}
+
+.productLong a:hover {
+  background-color: #146188; 
+  border-radius: 5px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.productLong h2 {
+  margin: 0;
+  padding: 15px, 0px;
+}
+
+.productLong h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.productLong p {
+  padding: 0px, 30px;
+  text-align: center;
+}
+
+.productLong img {
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 450px) { 
+  .productLong {
+    width: auto;
+    height: auto;
+  }
+}
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
 /* ----- Blog / Content -------*/
