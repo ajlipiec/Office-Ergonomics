@@ -34,21 +34,38 @@
              alt="trees that represent Root Ergonomics values that lie in the woods...it's something deep like that...read our journal">
   </section>
 
-  <nav>
-    <div class="nav">
-    <ul class="nav-list">
-      <li class="nav-item" style="border-left: 1px solid #dedee4;"><a href="./index.html">Root Ergonomics</a></li>
-      <li class="nav-item"><a href="./on-site-consultation.html">On-Site Consultation</a></li>
-      <li class="nav-item"><a href="video-consultation.html">Virtual Consultation</a></li>
-      <li class="nav-item"><a href="./sit-stand.html">Resources: Sit-Stand Desks</a></li>
-      <!-- <li class="nav-item">Resources</li> -->
-    </ul>
+
+  <div class="main-nav" id="my-main-nav">
+    <a href="./index.html">Root Ergonomics</a>
+    <a href="./on-site-consultation.html">On-Site Consultation</a>
+    <a href="./video-consultation.html">Virtual Consultation</a>
+    <div class="dropdown">
+      <button class="dropbtn">Resources
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./sit-stand.html">Sit-Stand Desks</a>
+        <a href="./carpal-tunnel.html">Carpal Tunnel Syndrome</a>
+      </div>
     </div>
-  </nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction() ">&#9776;</a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("my-main-nav");
+      if (x.className === "main-nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "main-nav"
+      }
+    }
+  </script>
+
+
 <main>
   <section class="homepageContent">
     <div>
-      <h1>Stay tuned for more content. But to start, here are some things to consider while choosing a sit-stand desk or workstation.</h1>
       <h2>Sit-Stand Desks</h2>
         <p>
           Sit-Stand Desks have become a popular topic over the last decade, spurring conversation and controversy. Too much of anything can become a bad thing. There is inconsistent research supporting the use of sit-stand workstations. Some research suggests these desks can improve focus and productivity while others show increased lower extremity pain and fatigue. There are even inconsistent parameters for the specific durations and ratios to sit and stand. Everyone is different and has different work needs. If you use a sit-stand desk or plan to, it's important to temper your daily habits to your personal ability level. Standing for too long for some can lead to similar musculoskeletal fatigue and breakdown found in the seated worker. 

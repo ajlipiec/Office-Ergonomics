@@ -139,7 +139,130 @@ li {
 }
 
 
+
 /* ------- Nav play - End -------*/ 
+
+/* Nav try #2 */
+ .main-nav {
+  background-color: #333;
+  overflow: hidden;
+  width: fit-content;
+  margin: auto;
+  border-radius: 8px;
+ }
+
+ .main-nav a {
+  display: block;
+  float: left;
+  color: #dedee4;
+  text-align: center;
+  font-style: normal;
+  font-size: large;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+ .active {
+   background-color: #dedee4;
+   color: white;
+ }
+
+ .main-nav .icon {
+   display: none;
+ }
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: #dedee4;
+  float: left;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: 160px;
+  box-shadow: 0px 8px 16p 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:#dedee4;
+  background-color: #333;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: left;
+  
+}
+
+.main-nav a:hover, .dropdown:hover  {
+  background-color: #5C969D;
+  
+  transition: ease-in-out 200ms;
+}
+
+.dropdown-content a:hover {
+  background-color: #5C969D;
+  color: #dedee4;
+  transition: ease-in-out 200ms;
+  border-radius: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 695px) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+
+  .main-nav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+    float: left;
+  }
+  .main-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width:695px) {
+  .main-nav.responsive {position: relative;}
+  .main-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  .main-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .main-nav.responsive .dropdown {float: none;}
+  .main-nav.responsive .dropdown-content {position: relative;}
+  .main-nav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
 
 /* ------- Intro - Start ------- */
 
