@@ -88,6 +88,9 @@ li {
     max-width: 884px;
     margin: 26px auto;
   }
+  .teaserImage {
+    border-radius: 25px
+  }
 }
 
 .teaserImage {
@@ -97,7 +100,7 @@ li {
 
 .teaserImage-theImageSilly {
   width: 100%;
-  border-radius: 25px 25px 0px 0px;
+  
 }
 
 /* -------- Hero and Teaser - End -------*/
@@ -146,7 +149,7 @@ li {
   overflow: hidden;
   width: fit-content;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
  }
 
  .main-nav a {
@@ -201,6 +204,7 @@ li {
   padding: 14px 16px;
   text-decoration: none;
   text-align: left;
+  border-radius: 8px;
   
 }
 
@@ -214,7 +218,7 @@ li {
   background-color: #5C969D;
   color: #dedee4;
   transition: ease-in-out 200ms;
-  border-radius: 0px;
+  border-radius: 8px;
 }
 
 .dropdown:hover .dropdown-content, .dropbtn {
@@ -655,7 +659,7 @@ text-align: center;
   border: none;
   outline: none;
   transition: 0.4s;
-  border-radius: 10px 10px 5px 5px;
+  border-radius: 0px 10px 0px 10px;
 }
 
 
@@ -671,7 +675,7 @@ text-align: center;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   text-align: left;
-  border-radius: 5px 5px 10px 10px;
+  border-radius: 10px 0px 10px 0px;
 }
 
 .panel p, .panel a, .panel ul, .panel li {
@@ -689,6 +693,7 @@ text-align: center;
 
 .active:after {
   content: "\02796";
+  border-radius: 10px;
 }
 
 /* ------- Accordion End-----*/
