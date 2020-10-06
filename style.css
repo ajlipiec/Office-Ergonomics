@@ -19,7 +19,6 @@ body {
   background-image: url("img/backgroundGradient2.png");
   background-size: cover;
   background-color: #5C969D ;
-
 }
 
 .homepageContent {
@@ -40,7 +39,7 @@ h1 {
 
 h2 {
   color: #dedee4;
-  background-color: #146188;
+  background-color: #4D865F;
   padding: 8px 12px;
   border-radius: 4px;
   text-align: center;
@@ -72,7 +71,7 @@ li {
 /*-------- Hero and Teaser-start ------- */
 
 .hero {
-  background-color: #146188;
+  background-color: #333;
   padding: 24px 16px;
   color: #F7F9FB;
   text-align: center;
@@ -161,10 +160,7 @@ li {
   text-decoration: none;
  }
 
- .active {
-   background-color: #dedee4;
-   color: white;
- }
+ 
 
  .main-nav .icon {
    display: none;
@@ -623,11 +619,59 @@ text-align: center;
 
 .rate-info a {
   text-decoration: none;
-  color: #4D865F;
+  color: #dedee4;
 
 }
 /* ------- Call, Text, or email - End-----*/
 
+/* ------- Accordion Start----- www.w3schools.com/howto/howto_js_accordion.asp*/
+.accordion {
+  background-color: #4D865F;
+  color: #dedee4;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 10px 10px 5px 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #687864;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #A4CBB1;
+  color: #333;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: left;
+  border-radius: 5px 5px 10px 10px;
+}
+
+.panel p, .panel a, .panel ul, .panel li {
+  color: #333;
+  font-weight: bold;
+}
+
+.accordion:after {
+  content: '\205C';
+  font-size: 13px;
+  color: #dedee4;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\02796";
+}
+
+/* ------- Accordion End-----*/
 
 /* ----   referral text - start ----- */
 .referral {
