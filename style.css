@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   color: #dedee4;
-  background-color: #4D865F;
+  background-color: #333;
   padding: 8px 12px;
   border-radius: 4px;
   text-align: center;
@@ -635,6 +635,9 @@ text-align: center;
   .rate-info h2 {
     font-size: 30px;
   }
+  .accordion {
+    width: fit-content;
+  }
 }
 
 /* ------- Call, Text, or email - End-----*/
@@ -644,6 +647,7 @@ text-align: center;
   background-color: #4D865F;
   color: #dedee4;
   font-weight: bolder;
+  margin: 5px 0;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -784,6 +788,8 @@ text-align: center;
 .responsive-video {
   /* keep empty for media style to work */
 }
+
+
 
 @media (max-width: 800px) {
   /* adding responsive video breakpoint? */ 
