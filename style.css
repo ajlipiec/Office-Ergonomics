@@ -67,7 +67,6 @@ li {
   color: #dedee4;
 }
 
-
 /* ------- Stable Headers- End ------- */
 
 /*-------- Hero and Teaser-start ------- */
@@ -610,7 +609,24 @@ text-align: center;
   color: #dedee4;
   text-align: center;
 }
-/* ----- Blog / Content -------*/
+/* ----- Blog / Content END -------*/
+
+/* ------- Call, Text, or email - Start-----*/
+.rate-info {
+  
+}
+
+.rate-info h2 {
+  background-color: #146188;
+  color: #77C9D4;
+}
+
+.rate-info a {
+  text-decoration: none;
+  color: #4D865F;
+
+}
+/* ------- Call, Text, or email - End-----*/
 
 
 /* ----   referral text - start ----- */
