@@ -1,3 +1,6 @@
+
+
+
 html {
   font-family: 'Nanum Gothic', sans-serif;
 }
@@ -102,46 +105,9 @@ li {
   width: 100%;
   
 }
-
 /* -------- Hero and Teaser - End -------*/
 
-/* -------- Nav Play - Start --------*/ 
 
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #4D865F;
-  text-align: center; 
-}
-
-.nav li {
-  display: inline;
-  border-right: 1px solid #dedee4;
-}
-
-.nav li a {
-  color: #A4CBB1;
-  font-style: normal;
-  font-weight: bold;
-  font-size: large;
-  display: inline-block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav li a:hover {
-  background-color: #5C969D; 
-  border-radius: 8px;
-  padding: 14px 16px;
-  transition: ease-in-out 200ms;
-}
-
-
-
-/* ------- Nav play - End -------*/ 
 
 /* Nav try #2 */
  .main-nav {
@@ -162,8 +128,6 @@ li {
   padding: 14px 16px;
   text-decoration: none;
  }
-
- 
 
  .main-nav .icon {
    display: none;
@@ -280,7 +244,7 @@ li {
 }
 
 .introduction_spanned {
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bolder;
   text-align: center;
 }
@@ -414,53 +378,7 @@ li {
 
 /* ----------- Andy Going Rogue --------------------*/
 
-/* ------- Consultation page description - Start ------- */
-.videoInfo{
-  text-align: left;
-  background-color:#4D865F;
-  border-radius: 15px;
-  padding: 8px;
-  padding-right: 16px;
-}
 
-.videoInfo-heading {
-  text-align: center;
-}
-
-.videoInfo a {
-  color: #dedee4;
-  overflow-wrap: break-word;
-}
-
-.videoInfo a:hover {
-  background-color: #146188; 
-  border-radius: 5px;
-  padding: 2px
-}
-
-.videoInfo ol {
-  font-weight: bold;
-  font-size: 17px;
-}
-
-.videoInfo ul {
-  font-weight: normal;
-  font-size: 15px;
-}
-
-.videoInfo ol > li {
-  padding-top: 8px;
-}
-
-.videoInfo li {
-  padding-bottom: 4px;
-}
-
-.videoInfo h3 {
-  color: #146188;
-}
-
-/* ------- Consultation page description - End ------- */
 /* ------- price style tag - Start ------- */
 
 .price {
@@ -561,10 +479,6 @@ text-align: center;
   border-radius: 8px;
 }
 
-.center_everything {
-  text-align: center;
-}
-
 @media (max-width: 450px) { 
   .product {
     width: auto;
@@ -627,21 +541,6 @@ text-align: center;
 }
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
-/* ----- Blog / Content -------*/
-
-
-.blog {
-  padding: 0 30px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-.blog h3 {
-  color: #dedee4;
-  text-align: center;
-}
-/* ----- Blog / Content END -------*/
 
 /* ------- Call, Text, or email - Start-----*/
 .rate-info {
@@ -741,69 +640,7 @@ text-align: center;
 /* ----   referral text - end ----- */
 
 
-/* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - Start ----- */
-.secret-orb {
-  display: inline-block;
-  height: 75px;
-  width: 75px;
-  animation:
-    fade 13s ease infinite, 
-    roll 13s ease infinite;
-  border-radius: 100%;
-  animation-play-state: running;
-}
 
-
-@keyframes fade {
-  1%, 90% {
-    background-color: #5C969D;
-    }
-  25% {
-    background-color: #146188;
-  }  
-  35% {
-    background-color: #A4CBB1;
-  }
-  55% {
-    background-color: #4D865F;
-    }
-  99% {
-    background-color: transparent;
-  }
-  }
-
-  @keyframes roll {
-    0% {
-      transform: translate(0,0);
-    }
-    100% {
-      transform: translate(100vw, 0);
-    }
-  }
-
-  .secret-orb2 {
-    display: inline-block;
-    float: right;
-    height: 75px;
-    width: 75px;
-    animation:
-      fade 13s ease infinite, 
-      roll2 13s ease infinite;
-    border-radius: 100%;
-    animation-play-state: running;
-  }
-  
-  @keyframes roll2 {
-    0% {
-      transform: translate(0,0);
-    }
-    100% {
-      transform: translate(-100vw, 0);
-    }
-  }
-  
-
-/* ----- THE ORBS!!!! planting seeds...root...it's a metaphor - End ----- */
   
 /* ------- Terms and Conditions - Satrt ------- */
 
