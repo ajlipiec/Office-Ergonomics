@@ -268,21 +268,53 @@ li {
 
 .intro {
   padding: 8px 16px 4px;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
 }
-
 
 .intro img {
   width: 200px ;
   background-color: #4D865F;
   padding: 25px;
   border-radius: 15px;
+}
 
+.introduction_spanned {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
 }
 
 
 /* ------- Intro - End ------- */
+
+/* ------- About US - Start ------- */
+
+.moreAboutUs {
+  text-align: center;
+}
+
+.moreAboutUs img {
+  width: 200px ;
+  background-color: #4D865F;
+  padding: 25px;
+  border-radius: 15px;
+ 
+}
+
+  /* ------- About US - End ------- */
+
+/* ------- Line Break - End ------- */
+
+.hline {
+  width: 100%;
+  height: 1px;
+  background-color: #dedee4;
+  margin-top: 20px;
+}
+
+/* ------- Line Break - End ------- */
+
 
 /* ------- Contact - Start -------*/
 
@@ -791,6 +823,7 @@ text-align: center;
 
 /* ------- Video Embed + media style - Start ------- */
 .responsive-video {
+  text-align: center;
   /* keep empty for media style to work */
 }
 
