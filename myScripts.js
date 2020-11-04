@@ -42,5 +42,5 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
 // Accordian Script ---- End
+
