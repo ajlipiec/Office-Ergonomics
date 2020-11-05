@@ -94,6 +94,7 @@ li {
   .teaserImage {
     border-radius: 25px
   }
+  
 
 }
 
@@ -658,10 +659,23 @@ text-align: center;
   text-align: center;
   margin: 0 auto;
   padding: 20px;
-  width: 92%;
+  width: 90%;
   height: 1200px;
-  align-items: center;
-  
+  align-items: center; 
+  transition: ease-in-out .1s;
+}
+
+@media (min-width: 800px) {
+  .pdf_article {
+    width: 75vw;
+    height: 1500px;
+    
+}
+}
+@media (min-width: 1000px) {
+  .pdf_article {
+    width: 50vw;
+  }
 }
 
 
