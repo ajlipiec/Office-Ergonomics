@@ -94,6 +94,7 @@ li {
   .teaserImage {
     border-radius: 25px
   }
+
 }
 
 .teaserImage {
@@ -655,8 +656,11 @@ text-align: center;
 
 .pdf_article {
   text-align: center;
-  margin: 2% 8%;
-  height: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  width: 92%;
+  height: 1200px;
+  align-items: center;
   
 }
 
