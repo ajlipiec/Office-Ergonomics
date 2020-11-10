@@ -94,9 +94,17 @@ li {
   .teaserImage {
     border-radius: 25px
   }
-  
-
 }
+/* ---this could be a problem!!!!!BELOW ! !!! !  ! ---
+@media (max-width: 554px) {
+    .hero {
+      min-width: 554px;
+    }
+    .teaserImage {
+      min-width: 554px;
+    }
+}
+ */
 
 .teaserImage {
   max-height: 300px;
@@ -563,9 +571,9 @@ text-align: center;
 
 .rate-info h2 {
   background-color: #333;
-  height: 100px;
+  height: fit-content;
   color: #146188;
-  font-size: 40px;
+  font-size: 26px;
   margin: 0 auto;
 }
 
@@ -581,7 +589,7 @@ text-align: center;
     transition: ease-in-out .4s;
   }
   .rate-info h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
   .accordion {
     width: fit-content;
@@ -658,25 +666,33 @@ text-align: center;
 .pdf_article {
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
-  width: 90%;
-  height: 1200px;
-  align-items: center; 
-  transition: ease-in-out .1s;
+  padding: 10px;
+  scrollbar-width: 125px;
+  height: 100vw;
+  transition: ease-in-out .3s;
+  overflow: hidden;
+
+
 }
+
 
 @media (min-width: 800px) {
   .pdf_article {
     width: 75vw;
-    height: 1500px;
+    
+   
     
 }
 }
 @media (min-width: 1000px) {
   .pdf_article {
     width: 50vw;
+    
+    background-color:none;
   }
 }
+
+
 
 
 /* ----   PDF Article - end ----- */
