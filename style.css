@@ -358,6 +358,12 @@ li {
   
 }
 
+@media (max-width: 933px) {
+  .baseTeaser-theImage {
+    border-radius: 0;
+  }
+}
+
 /* ------- Options - start (indext description item wrap)-------*/ 
 
 .options {
@@ -509,19 +515,19 @@ text-align: center;
 
 /*-----------Product 2.0 for "Long" boxes : used for CTS---------------*/
 .productLong {
-  background-color: #4D865F;
+  text-align: center;
+  background-color: #5C969D;
   color: #dedee4;
   padding: 15px;
   border-radius: 25px;
-  display: inline-table;
+  
   margin: 5px auto;
-  width: 560px;
-  height: 625px;
+  max-width: 500px;;
+  height: fit-content;
 }
 
 .productLong a {
-  
-  color: #77C9D4;
+  color: #dedee4;
 }
 
 .productLong a:hover {
@@ -544,6 +550,7 @@ text-align: center;
 .productLong p {
   padding: 0px, 30px;
   text-align: center;
+  color: #dedee4;
 }
 
 .productLong img {
@@ -556,8 +563,56 @@ text-align: center;
 
 @media (max-width: 450px) { 
   .productLong {
-    width: auto;
+    width: 90%;
     height: auto;
+    background-color: #5C969D;
+  }
+}
+
+
+.pdf_home {
+  padding: 0 16px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dedee4;
+  border-radius: 10px;
+  color: #333;
+  
+}
+
+.pdf_article {
+  
+  margin: 0 auto;
+  padding: 10px;
+  width: 95%;
+  height: auto;
+  transition: ease-in-out .3s;
+  overflow: hidden;
+}
+
+.pdf_article p, li, h3 {
+  color: #333;
+}
+
+
+@media (min-width: 800px) {
+  .pdf_article {
+    width: 75vw; 
+  }
+}
+
+@media (max-width: 800px) {
+  .pdf_home {
+    border-radius: 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pdf_article {
+    width: 50vw;
+    
+    background-color:none;
   }
 }
 
@@ -662,39 +717,6 @@ text-align: center;
 
 
 /* ----   PDF Article - start ----- */
-
-.pdf_article {
-  text-align: center;
-  margin: 0 auto;
-  padding: 10px;
-  scrollbar-width: 125px;
-  height: 100vw;
-  transition: ease-in-out .3s;
-  overflow: hidden;
-
-
-}
-
-
-@media (min-width: 800px) {
-  .pdf_article {
-    width: 75vw;
-    
-   
-    
-}
-}
-@media (min-width: 1000px) {
-  .pdf_article {
-    width: 50vw;
-    
-    background-color:none;
-  }
-}
-
-
-
-
 /* ----   PDF Article - end ----- */
 
 
