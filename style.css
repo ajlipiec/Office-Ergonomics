@@ -31,6 +31,10 @@ body {
   margin-right: auto;
 }
 
+.homepageContent h3 {
+  color: #77C9D4;
+}
+
 .homepageContent a {
   color: #77C9D4;
 }
@@ -460,116 +464,9 @@ display: inline-block;
 text-align: center;
 }
 
-.product {
-  background-color: #4D865F;
-  color: #dedee4;
-  padding: 15px;
-  border-radius: 25px;
-  display: inline-table;
-  margin: 5px auto;
-  width: 500px;
-  height: 500px;
-}
 
-.product a {
-  
-  color: #77C9D4;
-}
-
-.product a:hover {
-  background-color: #146188; 
-  border-radius: 5px;
-  padding: 2px;
-  text-decoration: none;
-}
-
-.product h2 {
-  margin: 0;
-  padding: 15px, 0px;
-}
-
-.product h3 {
-  font-size: 18px;
-  text-align: center;
-}
-
-.product p {
-  padding: 0px, 30px;
-  text-align: center;
-}
-
-.product img {
-  width: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-}
-
-@media (max-width: 450px) { 
-  .product {
-    width: auto;
-    height: auto;
-  }
-}
 
 /*-----------Product 2.0 for "Long" boxes : used for CTS---------------*/
-.productLong {
-  text-align: center;
-  background-color: #5C969D;
-  color: #dedee4;
-  padding: 15px;
-  border-radius: 25px;
-  
-  margin: 5px auto;
-  max-width: 500px;;
-  height: fit-content;
-}
-
-.productLong a {
-  color: #dedee4;
-}
-
-.productLong a:hover {
-  background-color: #146188; 
-  border-radius: 5px;
-  padding: 2px;
-  text-decoration: none;
-}
-
-.productLong h2 {
-  margin: 0;
-  padding: 15px, 0px;
-}
-
-.productLong h3 {
-  font-size: 18px;
-  text-align: center;
-}
-
-.productLong p {
-  padding: 0px, 30px;
-  text-align: center;
-  color: #dedee4;
-}
-
-.productLong img {
-  width: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-}
-
-@media (max-width: 450px) { 
-  .productLong {
-    width: 90%;
-    height: auto;
-    background-color: #5C969D;
-  }
-}
-
-
 .pdf_home {
   padding: 0 16px;
   max-width: 900px;
@@ -599,6 +496,17 @@ text-align: center;
   color: #333;
 }
 
+.pdf_article a {
+  color: #333;
+  font-weight: bolder;
+}
+
+.pdf_article a:hover {
+  background-color: #77C9D4; 
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 
 @media (min-width: 800px) {
   .pdf_article {
@@ -615,10 +523,68 @@ text-align: center;
 @media (min-width: 1000px) {
   .pdf_article {
     width: 50vw;
-    
     background-color:none;
   }
 }
+
+.productLong {
+  text-align: center;
+  background-color: #5C969D;
+  color: #dedee4;
+  padding: 15px;
+  border-radius: 25px;
+  
+  margin: 5px auto;
+  max-width: 500px;;
+  height: fit-content;
+}
+
+.productLong a {
+  color: #333;
+  font-weight: bolder;
+}
+
+.productLong a:hover {
+  background-color: #77C9D4; 
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.productLong h2 {
+  margin: 0;
+  padding: 15px, 0px;
+
+}
+
+.productLong h3 {
+  font-size: 18px;
+  text-align: center;
+  color: #dedee4;
+}
+
+.productLong p {
+  padding: 0px, 30px;
+  text-align: center;
+  color: #dedee4;
+  
+}
+
+.productLong img {
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 450px) { 
+  .productLong {
+    width: 90%;
+    height: auto;
+    background-color: #5C969D;
+  }
+}
+
 
 /*----------- Affliliate Marketing Page Style () - End ----------- */
 
