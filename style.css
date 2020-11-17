@@ -591,7 +591,11 @@ text-align: center;
   overflow: hidden;
 }
 
-.pdf_article p, li, h3 {
+.pdf_article p, h3 {
+  color: #333;
+}
+
+.pdf_article li {
   color: #333;
 }
 
