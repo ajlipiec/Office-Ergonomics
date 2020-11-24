@@ -479,7 +479,6 @@ text-align: center;
 }
 
 .pdf_article {
-  
   margin: 0 auto;
   padding: 10px;
   width: 95%;
@@ -487,6 +486,19 @@ text-align: center;
   transition: ease-in-out .3s;
   overflow: hidden;
   max-width: 875px;
+}
+
+.pdf_article img {
+  width: 100%;
+  border-radius: 15px 0px;
+}
+
+.pdf_chart {
+  max-width: 400px;
+  border-radius: 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .pdf_article p, h3 {
