@@ -753,7 +753,17 @@ text-align: center;
   }
 }
 
-
+.closed-biz {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.closed-biz p {
+  font-size: x-large;
+  background-color: #333;
+  border-radius: 20px;
+  padding: 10px;  
+  color: mediumvioletred;
+  text-align: center;
+}
 
 
 
